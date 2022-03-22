@@ -1,0 +1,27 @@
+Microsoft Windows [Version 10.0.19044.1586]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\user\OneDrive\Desktop\fyp>git init
+Initialized empty Git repository in C:/Users/user/OneDrive/Desktop/fyp/.git/
+
+C:\Users\user\OneDrive\Desktop\fyp>git add .
+
+C:\Users\user\OneDrive\Desktop\fyp>git commit -m "First"
+[master (root-commit) b292165] First
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+
+C:\Users\user\OneDrive\Desktop\fyp>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\user\OneDrive\Desktop\fyp>git remote add origin https://github.com/ariacsr99/fyp_face_detection.git
+
+C:\Users\user\OneDrive\Desktop\fyp>git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 231 bytes | 231.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ariacsr99/fyp_face_detection.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
